@@ -42,6 +42,11 @@ public class TC_001LoginPage extends baseDriver {
 		String text = driver.findElement(By.xpath("//a[@href='https://practice.automationtesting.in/my-account/customer-logout/']")).getText();
 		Thread.sleep(2000);
 		
-		System.out.println("Login Confirmation: "+ text);
+		if (text.contains("Logout")) {
+			System.out.println("Succesfully Logged in");
+		}
+		else {
+			System.out.println("Login Unsucessful");
+		}
 	}
 }
