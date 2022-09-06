@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCasePackage.TC_001LoginPage">
+      <class name="testCasePackage.valuefromDropdown">
         <methods>
-          <include name="login"/>
           <include name="treatDown"/>
           <include name="setup"/>
-          <include name="Registration"/>
+          <include name="selectfromDropdown"/>
         </methods>
-      </class> <!-- testCasePackage.TC_001LoginPage -->
+      </class> <!-- testCasePackage.valuefromDropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
