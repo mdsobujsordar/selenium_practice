@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-06T01:26:36 PDT" name="Default suite" finished-at="2022-09-06T01:26:47 PDT" duration-ms="11173">
+  <suite started-at="2022-09-06T20:53:04 PDT" name="Default suite" finished-at="2022-09-06T20:53:11 PDT" duration-ms="7470">
     <groups>
     </groups>
-    <test started-at="2022-09-06T01:26:36 PDT" name="Default test" finished-at="2022-09-06T01:26:47 PDT" duration-ms="11173">
-      <class name="testCasePackage.TC_007pageScroll">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCasePackage.TC_007pageScroll@29215f06]" started-at="2022-09-06T01:26:27 PDT" name="setup" finished-at="2022-09-06T01:26:36 PDT" duration-ms="9728" status="PASS">
+    <test started-at="2022-09-06T20:53:04 PDT" name="Default test" finished-at="2022-09-06T20:53:11 PDT" duration-ms="7470">
+      <class name="testCasePackage.tc_012clickandHold">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCasePackage.tc_012clickandHold@29215f06]" started-at="2022-09-06T20:52:55 PDT" name="setup" finished-at="2022-09-06T20:53:04 PDT" duration-ms="8537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="pageScroll()[pri:0, instance:testCasePackage.TC_007pageScroll@29215f06]" started-at="2022-09-06T01:26:36 PDT" name="pageScroll" finished-at="2022-09-06T01:26:47 PDT" duration-ms="11030" status="PASS">
+        <test-method signature="clickandHold()[pri:0, instance:testCasePackage.tc_012clickandHold@29215f06]" started-at="2022-09-06T20:53:04 PDT" name="clickandHold" finished-at="2022-09-06T20:53:11 PDT" duration-ms="7308" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageScroll -->
-        <test-method is-config="true" signature="treatDown()[pri:0, instance:testCasePackage.TC_007pageScroll@29215f06]" started-at="2022-09-06T01:26:53 PDT" name="treatDown" finished-at="2022-09-06T01:26:53 PDT" duration-ms="258" status="PASS">
+        </test-method> <!-- clickandHold -->
+        <test-method is-config="true" signature="treatDown()[pri:0, instance:testCasePackage.tc_012clickandHold@29215f06]" started-at="2022-09-06T20:53:17 PDT" name="treatDown" finished-at="2022-09-06T20:53:17 PDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- treatDown -->
-      </class> <!-- testCasePackage.TC_007pageScroll -->
+      </class> <!-- testCasePackage.tc_012clickandHold -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
